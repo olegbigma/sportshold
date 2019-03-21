@@ -1,0 +1,704 @@
+html,body{
+    font-family: "truenoLt", sans-serif;
+    font-size: 16px;
+}
+
+h1,h2{
+    font-family: "TruenoUltBlk", sans-serif;
+}
+
+h3,h4,h5,h6{
+    font-family:"TruenoBd", sans-serif;
+}
+
+/* ========================top-menu========================== */
+
+.top-menu{
+    background: #472424;
+    font-size: 13px;
+}
+
+.top-menu .nav-link{
+    color: #fff;
+    padding: 1rem;
+}
+
+.top-menu .offset-md-4 .nav-item{
+    border-right: 1px solid #5a3a3a;
+}
+
+.top-menu .nav-item:last-child{
+    border-right:none;
+}
+
+.top-menu .nav-item:hover{
+    background: #ff7373;
+}
+
+/* =========================main-menu================================ */
+
+.main-menu{
+    background: #623232;
+}
+
+.main-menu .navbar{
+    padding: 0 0 0 1rem;
+}
+
+.main-menu .navbar-nav .nav-link{
+    padding: 1.7rem 1rem;
+    color: #fff;
+    
+}
+
+.main-menu .navbar-nav .nav-link:hover{
+    color: #ff7373;
+    border-bottom: 4px solid #ff7373;
+    padding-bottom: 1rem;
+}
+
+/* ========================banner===================================== */
+
+.banner{
+    background: #f0efee;
+    position: relative;
+}
+
+.static{
+    position: static;
+}
+
+.image-container{
+    height: 500px;
+}
+
+.banner-image{
+    position: absolute;
+    left: 0;
+    top: -8%;
+    height: 108%;
+    width: 45%;
+}
+
+.banner-title{
+    padding: 4rem .6rem 0;
+}
+
+.banner-title__price{
+    font-size: 30px;
+    color: #623232;
+}
+
+.banner-title__title{
+    font-weight: 1000;
+    color: #623232;
+    font-size: 4.4rem;
+}
+
+.banner-title__variants{
+    font-size: 50px;
+    color: #ff7373;
+    font-weight: 1000;
+    margin-bottom: 1rem
+}
+
+.banner-title__text{
+    color: #8a8784;
+    letter-spacing: .6px;
+    padding: 0 4rem 0 0;
+    margin-bottom: 2rem
+}
+
+.banner-title__btn{
+    background: #ff7373;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 700;
+    padding: .7rem 2rem;
+}
+
+/* ============================best-offer============================= */
+
+.best-offer{
+    padding: 3rem 0;
+}
+
+.nikekyrie{
+    height: 540px;
+    padding: 40px 30px;
+    background-image: url(../img/nikekyrie3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.best-offer__subtitle{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    letter-spacing: .1rem;
+    color: #fff;
+    display: block;
+}
+
+.best-offer__title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.nikekyrie__logo{
+    position: absolute;
+}
+
+.best-offer__title--aqua{
+    color: #4bd8cd;
+}
+
+.best-offers__btn{
+    border-radius: 0;
+    font-weight: 700;
+    position: absolute;
+    padding: 10px 30px;
+    bottom: 50px;
+    left: 30%;
+}
+
+.best-offers__btn--aqua{
+    background: #4bd8cd;
+}
+
+.new-arrivals{
+    height: 47%;
+    background-color: #ff7373;
+    position: relative;
+    padding: 3.4rem 3.4rem 9.3rem;
+    margin-bottom: 2rem;
+}
+
+.best-offer__title--white{
+    color: #fff;
+
+}
+
+.best-offers__btn--red{
+    background: #623232;
+    color: #fff;
+    left: 50%;
+}
+
+.new-arrivals__logo{
+    position: absolute;
+    left: -20px;
+    bottom: 0;
+}
+
+.bottom-blocks{
+    height: 47%;
+}
+
+.best{
+    width: 47%;
+    background-image: url(../img/best-for-athlettes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7.75rem;
+}
+
+.best-offer__title--red{
+    color: #ff7373;
+
+}
+
+.premium{
+    width: 47%;
+    padding-top: 1.9rem;
+    background-color: #cecece;
+    background-image: url(../img/premium-shoes.png);
+    background-size: contain;
+    background-position: 0 132px;
+    background-repeat: no-repeat;
+}
+
+.best-offer__subtitle--grey{
+    color: #6b7072;
+}
+
+/* =======================main-products=============================== */
+
+.item{
+    min-width: 250px;
+    border: 1px solid #e0dfde;
+    padding: 1.6rem 0 1.6rem 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.item__price{
+    font-size: 24px;
+    color: #928f8c;
+}
+
+.item__sale-price{
+    font-size: 24px;
+    color: #ff7373;
+    justify-content: space-between;
+}
+
+.item__sale{
+    font-size: 16px;
+    background: #ff7373;
+    color: #fff;
+    padding: 6px 10px;
+}
+
+.item__old-price{
+    color: #a5a3a1;
+    text-decoration: line-through;
+    display: block;
+}
+
+.item-image{
+    margin-top:22px;
+    cursor: pointer;
+}
+
+.item__title{
+    margin-top: 3.75rem;
+    color: #a5a3a1;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.item__subtitle{
+    color: #a5a3a1;
+    margin-bottom: 5px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.item__number{
+    font-size: 13px;
+    color: #a5a3a1;
+}
+
+.new{
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.main-products .carousel-indicators{
+    top: 0;
+    bottom: auto;
+}
+
+.main-products .carousel-indicators .active{
+    font-weight: 700;
+    color: #623232;
+}
+
+.main-products .carousel-indicators li{
+    text-indent: 0;
+    border: none;
+    width: auto;
+    margin: 0 1.5rem;
+    font-size: 24px;
+}
+
+.main-products>.active{
+    font-weight: 700;
+    color: #623232;
+}
+
+/* ============================brands===================================== */
+
+.brands-container{
+    padding: 50px 0 80px 0;
+}
+
+/* ============================rating=============================== */
+
+.rating{
+    background-image: url(../img/ratingbg.png);
+    background-repeat: no-repeat;
+    padding: 100px 140px 60px 140px;
+}
+
+.rating-icon{
+    margin: 0 1.4rem;
+    opacity: 0.5;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.rating-icon:hover{
+    opacity: 1;
+    transition: 0.3s all;
+}
+
+.rating-icon__img{
+    margin: 0 auto;
+    margin-bottom: 1.3rem;
+    display: block;
+}
+
+.rating-icon__stars{
+    color: #ff7373;
+}
+
+.rating-icon__name{
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.rating__description{
+    margin: 40px auto;
+    padding: 50px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+/* ========================latest-news============================================ */
+
+.latest-news{
+    padding: 5.6rem 0;
+}
+
+.latest-news__title{
+    color: #623232;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.latest-news__items{
+    flex-wrap: wrap;
+}
+
+.latest-news__item{
+    min-width: 340px;
+    padding: 200px 25px 25px 30px;
+}
+
+.first-item{
+    background-image: url(../img/news1.jpg);
+    background-repeat: no-repeat;
+}
+
+.second-item{
+    background-image: url(../img/news2.jpg);
+    background-repeat: no-repeat;
+}
+
+.third-item{
+    background-image: url(../img/news3.jpg);
+    background-repeat: no-repeat;
+}
+
+.latest-news__subtitle{
+    font-weight: 700;
+    color: #fff;
+}
+
+.latest-news__text{
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.latest-news__icon , .latest-news__comment{
+    font-size: 13px;
+    color: #ff7373;
+    cursor: pointer;
+}
+
+/* ==============================help======================================== */
+
+.help{
+    background: #ff7373;
+    padding: 70px 0;
+    color: #fff;
+}
+
+.help__envelope{
+    font-size: 48px;
+}
+
+.help_text{
+    margin-left: 30px;
+}
+
+.help__title{
+    margin-bottom: 0;
+}
+
+.help__button-container{
+    text-align: right;
+}
+
+.help__button{
+    background: #623232;
+    color: #fff;
+    border-radius: 0;
+    padding: 10px 30px;
+}
+
+/* ==================================footer=========================== */
+footer{
+    background: #623232;
+}
+
+.advantages{
+    padding: 50px 0;
+    border-bottom: 1px solid #795151;
+}
+
+.adv{
+    margin-right: 70px;
+}
+
+.adv__img{
+    width: 50px;
+    height: 40px;
+    margin: 30px auto;
+}
+
+.adv__title{
+    color: #fff;
+    text-align: center;
+}
+
+.other-info{
+    padding: 100px 0;
+    border-bottom: 1px solid #795151;
+}
+
+.other-info__item{
+    margin-bottom: 20px;
+}
+
+.other-info__icon{
+    width: 50px;
+    padding: 15px;
+    background: #ff7373;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.other-info__title{
+    text-transform: uppercase;
+    color: #ff7373;
+    font-weight: 700;
+}
+
+.other-info__subtitle{
+    color: #fff;
+}
+
+.other-info__wrap{
+    width: 50%;
+}
+
+.other-info__list ul{
+    padding: 0;
+}
+
+.other-info__list ul li{
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.all-rights{
+    padding: 40px 0;
+}
+
+.all-rights__text{
+    color: #fff;
+    text-align: center;
+}
+
+.all-rights__social{
+    font-size: 28px;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.all-rights__social:hover{
+    color: #ff7373;
+}
+
+.all-rights__last-container{
+    text-align: right;
+}
+
+/* ============================================responsive===================================== */
+
+@media (max-width: 1199px) {
+
+    /* banner */
+    .banner-title {
+        padding: 25px 25px;
+    }
+
+    .banner-image{
+        width: 50%;
+        top: -5%;
+        height: 105%;
+    }
+
+    /* best-offer */
+    .premium{
+        background-position: 0 151px;
+    }
+
+    /* latest-news */
+    .latest-news__item{
+        margin-top: 20px;
+    }
+
+    .latest-news{
+        padding: 50px 0;
+    }
+  }
+
+/* ======================================991======================================= */
+  @media (max-width: 991px){
+    
+    body{
+        font-size: 14px;
+    }
+
+    /* main-menu */
+    .main-menu {
+        padding: 10px 0;
+    }
+
+    .main-menu .navbar-nav .nav-link {
+        padding: 0.7rem 1rem;
+    }
+
+    .main-menu .navbar-nav .nav-link:hover{
+        border: none;
+        padding-bottom: 1rem;
+        color: #fff;
+        background: #ff7373;
+    }
+
+      /* best-offer */
+    .premium {
+        background-position: 0px 131px;
+    }
+
+    .best-offers__btn--red {
+        bottom: 15px;
+    }
+
+    .best-offer__title--red{
+        margin-bottom: 2.5em;   
+    }
+
+    /* main-products */
+    .main-products .carousel-indicators li{
+        font-size: 16px;
+    }
+
+    /* brands */
+    .brands__img{
+        width: 70px;
+        height: 35px;
+    }
+
+    .brands-container{
+        padding: 20px 0 50px 0;
+    }
+
+    /* rating */
+    .rating__description{
+        font-size: 14px;
+        padding: 30px;
+    }
+
+    .rating-icon__name{
+        font-size: 12px;
+        height: 36px;
+    }
+
+    .rating-icon{
+        margin: 0 .5rem;
+    }
+
+    .fa-star{
+        font-size: 11px;
+    }
+
+    /* all-rights */
+    .all-rights__social{
+        margin-left: 20px;
+    }
+
+    .all-rights__last-container {
+        text-align: center;
+    } 
+
+    .all-rights__logo{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+  }
+/* ===================================767====================================== */
+  @media (max-width: 767px){
+       /* best-offer */
+    .premium {
+        background-position: 0px 173px;
+    } 
+
+    /* help */
+    .help__button{
+        margin-top: 30px;
+    }
+
+    /* other-info */
+    .other-info {
+        padding: 40px 0;
+    }
+
+    .other-info__wrap{
+        width: 100%;
+    }
+
+    /* rating */
+    .rating{
+        padding: 50px;
+    }
+  }
+
+  /* ==================================575==================================== */
+  @media (max-width: 575px){
+      /* best-offer */
+      .nikekyrie {
+        height: 400px;
+    }
+
+    .best {
+        padding-top: 3.75rem;
+    } 
+
+    /* rating */
+    .rating{
+        padding: 20px 10px;
+    }
+/* footer */
+    .adv{
+        margin-right: 20px;
+    }
+
+    .other-info__title{
+        font-size: 16px;
+    }
+  }
+
+
