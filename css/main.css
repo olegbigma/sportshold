@@ -75,9 +75,8 @@ h3,h4,h5,h6{
 .banner-image{
     position: absolute;
     left: 0;
-    top: -8%;
-    height: 108%;
-    width: 45%;
+    top: -5%;
+    height: 105%;
 }
 
 .banner-title{
@@ -178,7 +177,8 @@ h3,h4,h5,h6{
 
 .best-offer__title--white{
     color: #fff;
-
+    position: relative;
+    z-index: 5;
 }
 
 .best-offers__btn--red{
@@ -191,6 +191,7 @@ h3,h4,h5,h6{
     position: absolute;
     left: -20px;
     bottom: 0;
+    
 }
 
 .bottom-blocks{
